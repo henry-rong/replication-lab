@@ -1,6 +1,6 @@
 ---
 title: "Testing the robustness of a published claim: Teney (2016)"
-author: "Pair: [names]"
+author: "Pair: Henry Rong"
 date: today
 format:
   html:
@@ -60,10 +60,10 @@ Every task is a callout box with instructions, a **TODO** you complete, and code
 
 **TODO: Read the four scenarios and fill in the gaps**
 
-***Scenario 1:*** A reviewer reruns the authors' Stata `.do` file on the authors' data and gets a *different* coefficient from the one printed in the paper. This is an example of \_\_\_\_\_\_, even though what they *tried* to do failed.
-***Scenario 2:*** The analyst uses the authors' submitted replication dataset, but they re-implement the model in R instead of Stata and centre the predictor. Is this a case of \_\_\_\_\_\_ or \_\_\_\_\_\_?
-***Scenario 3: *** A preregistered team tests the identical hypothesis on a *separate, much larger* dataset chosen to be theoretically equivalent, and gets results that contradict the original. Their conclusion is that the original analysis has failed to \_\_\_\_\_\_.
-***Scenario 4:*** Instead of the survey data used by the original authors, another researcher tests the same underlying idea on social-media texts using a machine-learning classifier method that the original never used. To their surprise, the authors' original findings prove \_\_\_\_\_\_ and the researcher concludes that they provide a reliable middle-range theory of the phenomenon they investigate.
+***Scenario 1:*** A reviewer reruns the authors' Stata `.do` file on the authors' data and gets a *different* coefficient from the one printed in the paper. This is an example of **reproducibility**, even though what they *tried* to do failed.
+***Scenario 2:*** The analyst uses the authors' submitted replication dataset, but they re-implement the model in R instead of Stata and centre the predictor. Is this a case of **robustness**?
+***Scenario 3: *** A preregistered team tests the identical hypothesis on a *separate, much larger* dataset chosen to be theoretically equivalent, and gets results that contradict the original. Their conclusion is that the original analysis has failed to **replicate**.
+***Scenario 4:*** Instead of the survey data used by the original authors, another researcher tests the same underlying idea on social-media texts using a machine-learning classifier method that the original never used. To their surprise, the authors' original findings prove **generalisability** and the researcher concludes that they provide a reliable middle-range theory of the phenomenon they investigate.
 
 When you have filled these in, commit: `git commit -am "Task A: define the three Rs"`.
 :::
